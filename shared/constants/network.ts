@@ -146,6 +146,7 @@ export const CHAIN_IDS = {
   CHZ: '0x15b38',
   NUMBERS: '0x290b',
   SEI: '0x531',
+  MINT: '0xb9',
   APE_TESTNET: '0x8157',
   APE_MAINNET: '0x8173',
   BERACHAIN: '0x138d5',
@@ -447,6 +448,7 @@ export const TENET_MAINNET_IMAGE_URL = './images/tenet.svg';
 export const VELAS_EVM_MAINNET_IMAGE_URL = './images/velas.svg';
 export const ZKATANA_MAINNET_IMAGE_URL = './images/zkatana.png';
 export const ZORA_MAINNET_IMAGE_URL = './images/zora.svg';
+export const MINT_IMAGE_URL = './images/mint.svg';
 export const FILECOIN_MAINNET_IMAGE_URL = './images/filecoin.svg';
 export const SCROLL_IMAGE_URL = './images/scroll.svg';
 export const NUMBERS_MAINNET_IMAGE_URL = './images/numbers-mainnet.svg';
@@ -792,6 +794,7 @@ export const CHAIN_ID_TO_NETWORK_IMAGE_URL_MAP = {
   [CHAINLIST_CHAIN_IDS_MAP.BASE]: BASE_TOKEN_IMAGE_URL,
   [CHAINLIST_CHAIN_IDS_MAP.NUMBERS]: NUMBERS_MAINNET_IMAGE_URL,
   [CHAINLIST_CHAIN_IDS_MAP.SEI]: SEI_IMAGE_URL,
+  [CHAINLIST_CHAIN_IDS_MAP.MINT]: MINT_IMAGE_URL,
 } as const;
 
 export const CHAIN_ID_TO_ETHERS_NETWORK_NAME_MAP = {
