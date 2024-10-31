@@ -146,7 +146,6 @@ export const CHAIN_IDS = {
   CHZ: '0x15b38',
   NUMBERS: '0x290b',
   SEI: '0x531',
-  MINT: '0xb9',
   APE_TESTNET: '0x8157',
   APE_MAINNET: '0x8173',
   BERACHAIN: '0x138d5',
@@ -154,6 +153,7 @@ export const CHAIN_IDS = {
   ARBITRUM_SEPOLIA: '0x66eee',
   NEAR: '0x18d',
   NEAR_TESTNET: '0x18e',
+  MINT: '0xb9',
 } as const;
 
 export const CHAINLIST_CHAIN_IDS_MAP = {
@@ -210,6 +210,7 @@ export const CHAINLIST_CHAIN_IDS_MAP = {
   FILECOIN: '0x13a',
   NUMBERS: '0x290b',
   APE: '0x8173',
+  MINT: '0xb9',
 } as const;
 
 // To add a deprecation warning to a network, add it to the array
@@ -375,6 +376,7 @@ const CHAINLIST_CURRENCY_SYMBOLS_MAP = {
   ACALA_NETWORK: 'ACA',
   IOTEX_MAINNET: 'IOTX',
   APE: 'APE',
+  MINT: 'ETH',
 } as const;
 
 export const CHAINLIST_CURRENCY_SYMBOLS_MAP_NETWORK_COLLISION = {
